@@ -1,0 +1,854 @@
+A.L.E: Arcade Learning Environment (version 0.11.2+ecc1138)
+[Powered by Stella]
+
+======================================================================
+Experiment 1: BASELINE - Already completed (2000 episodes)
+Using existing results from logs/baseline_stats.json
+======================================================================
+
+======================================================================
+Experiment 2: HIGH GAMMA (γ=0.995)
+======================================================================
+======================================================================
+🎮 DQN PONG AGENT TRAINING
+======================================================================
+Experiment: high_gamma
+Environment: ALE/Pong-v5
+Total Episodes: 300
+Learning Rate (α): 0.0001
+Discount Factor (γ): 0.995
+Epsilon Start: 1.0
+Epsilon Min: 0.02
+Epsilon Decay: 0.999995
+Random Seed: 100
+======================================================================
+🖥️  Using device: cpu
+🎯 Target network updated at step 1000
+🎯 Target network updated at step 2000
+🎯 Target network updated at step 3000
+🎯 Target network updated at step 4000
+🎯 Target network updated at step 5000
+🎯 Target network updated at step 6000
+🎯 Target network updated at step 7000
+🎯 Target network updated at step 8000
+
+📊 Episode 10/300
+   Reward: -20.0 | Avg(100): -20.50
+   Length: 1043 steps | Avg(100): 923.0
+   Loss: 0.021338 | Epsilon: 0.9597
+   Memory: 9230/10000 | Steps: 8231
+🎯 Target network updated at step 9000
+🎯 Target network updated at step 10000
+🎯 Target network updated at step 11000
+🎯 Target network updated at step 12000
+🎯 Target network updated at step 13000
+🎯 Target network updated at step 14000
+🎯 Target network updated at step 15000
+🎯 Target network updated at step 16000
+🎯 Target network updated at step 17000
+
+📊 Episode 20/300
+   Reward: -21.0 | Avg(100): -20.45
+   Length: 824 steps | Avg(100): 923.5
+   Loss: 0.019196 | Epsilon: 0.9163
+   Memory: 10000/10000 | Steps: 17472
+🎯 Target network updated at step 18000
+🎯 Target network updated at step 19000
+🎯 Target network updated at step 20000
+🎯 Target network updated at step 21000
+🎯 Target network updated at step 22000
+🎯 Target network updated at step 23000
+🎯 Target network updated at step 24000
+🎯 Target network updated at step 25000
+🎯 Target network updated at step 26000
+
+📊 Episode 30/300
+   Reward: -21.0 | Avg(100): -20.37
+   Length: 794 steps | Avg(100): 927.1
+   Loss: 0.017368 | Epsilon: 0.8745
+   Memory: 10000/10000 | Steps: 26813
+🎯 Target network updated at step 27000
+🎯 Target network updated at step 28000
+🎯 Target network updated at step 29000
+🎯 Target network updated at step 30000
+🎯 Target network updated at step 31000
+🎯 Target network updated at step 32000
+🎯 Target network updated at step 33000
+🎯 Target network updated at step 34000
+🎯 Target network updated at step 35000
+🎯 Target network updated at step 36000
+
+📊 Episode 40/300
+   Reward: -21.0 | Avg(100): -20.30
+   Length: 973 steps | Avg(100): 932.5
+   Loss: 0.015959 | Epsilon: 0.8340
+   Memory: 10000/10000 | Steps: 36303
+🎯 Target network updated at step 37000
+🎯 Target network updated at step 38000
+🎯 Target network updated at step 39000
+🎯 Target network updated at step 40000
+🎯 Target network updated at step 41000
+🎯 Target network updated at step 42000
+🎯 Target network updated at step 43000
+🎯 Target network updated at step 44000
+🎯 Target network updated at step 45000
+
+📊 Episode 50/300
+   Reward: -21.0 | Avg(100): -20.30
+   Length: 811 steps | Avg(100): 931.5
+   Loss: 0.014648 | Epsilon: 0.7962
+   Memory: 10000/10000 | Steps: 45578
+💾 Checkpoint saved at episode 50
+🎯 Target network updated at step 46000
+🎯 Target network updated at step 47000
+🎯 Target network updated at step 48000
+🎯 Target network updated at step 49000
+🎯 Target network updated at step 50000
+🎯 Target network updated at step 51000
+🎯 Target network updated at step 52000
+🎯 Target network updated at step 53000
+🎯 Target network updated at step 54000
+🎯 Target network updated at step 55000
+
+📊 Episode 60/300
+   Reward: -21.0 | Avg(100): -20.32
+   Length: 825 steps | Avg(100): 936.1
+   Loss: 0.013562 | Epsilon: 0.7589
+   Memory: 10000/10000 | Steps: 55169
+🎯 Target network updated at step 56000
+🎯 Target network updated at step 57000
+🎯 Target network updated at step 58000
+🎯 Target network updated at step 59000
+🎯 Target network updated at step 60000
+🎯 Target network updated at step 61000
+🎯 Target network updated at step 62000
+🎯 Target network updated at step 63000
+🎯 Target network updated at step 64000
+
+📊 Episode 70/300
+   Reward: -20.0 | Avg(100): -20.31
+   Length: 948 steps | Avg(100): 940.8
+   Loss: 0.012647 | Epsilon: 0.7231
+   Memory: 10000/10000 | Steps: 64855
+🎯 Target network updated at step 65000
+🎯 Target network updated at step 66000
+🎯 Target network updated at step 67000
+🎯 Target network updated at step 68000
+🎯 Target network updated at step 69000
+🎯 Target network updated at step 70000
+🎯 Target network updated at step 71000
+🎯 Target network updated at step 72000
+🎯 Target network updated at step 73000
+🎯 Target network updated at step 74000
+🎯 Target network updated at step 75000
+
+📊 Episode 80/300
+   Reward: -21.0 | Avg(100): -20.24
+   Length: 917 steps | Avg(100): 956.7
+   Loss: 0.012104 | Epsilon: 0.6854
+   Memory: 10000/10000 | Steps: 75537
+🎯 Target network updated at step 76000
+🎯 Target network updated at step 77000
+🎯 Target network updated at step 78000
+🎯 Target network updated at step 79000
+🎯 Target network updated at step 80000
+🎯 Target network updated at step 81000
+🎯 Target network updated at step 82000
+🎯 Target network updated at step 83000
+🎯 Target network updated at step 84000
+🎯 Target network updated at step 85000
+🎯 Target network updated at step 86000
+
+📊 Episode 90/300
+   Reward: -20.0 | Avg(100): -20.16
+   Length: 1219 steps | Avg(100): 977.0
+   Loss: 0.011696 | Epsilon: 0.6475
+   Memory: 10000/10000 | Steps: 86930
+🎯 Target network updated at step 87000
+🎯 Target network updated at step 88000
+🎯 Target network updated at step 89000
+🎯 Target network updated at step 90000
+🎯 Target network updated at step 91000
+🎯 Target network updated at step 92000
+🎯 Target network updated at step 93000
+🎯 Target network updated at step 94000
+🎯 Target network updated at step 95000
+🎯 Target network updated at step 96000
+🎯 Target network updated at step 97000
+🎯 Target network updated at step 98000
+🎯 Target network updated at step 99000
+🎯 Target network updated at step 100000
+
+📊 Episode 100/300
+   Reward: -19.0 | Avg(100): -19.95
+   Length: 1360 steps | Avg(100): 1012.6
+   Loss: 0.011379 | Epsilon: 0.6057
+   Memory: 10000/10000 | Steps: 100264
+💾 Checkpoint saved at episode 100
+💾 Model saved: models/high_gamma_ep100.pth
+🎯 Target network updated at step 101000
+🎯 Target network updated at step 102000
+🎯 Target network updated at step 103000
+🎯 Target network updated at step 104000
+🎯 Target network updated at step 105000
+🎯 Target network updated at step 106000
+🎯 Target network updated at step 107000
+🎯 Target network updated at step 108000
+🎯 Target network updated at step 109000
+🎯 Target network updated at step 110000
+🎯 Target network updated at step 111000
+🎯 Target network updated at step 112000
+🎯 Target network updated at step 113000
+🎯 Target network updated at step 114000
+
+📊 Episode 110/300
+   Reward: -21.0 | Avg(100): -19.67
+   Length: 1123 steps | Avg(100): 1067.0
+   Loss: 0.010099 | Epsilon: 0.5629
+   Memory: 10000/10000 | Steps: 114936
+🎯 Target network updated at step 115000
+🎯 Target network updated at step 116000
+🎯 Target network updated at step 117000
+🎯 Target network updated at step 118000
+🎯 Target network updated at step 119000
+🎯 Target network updated at step 120000
+🎯 Target network updated at step 121000
+🎯 Target network updated at step 122000
+🎯 Target network updated at step 123000
+🎯 Target network updated at step 124000
+🎯 Target network updated at step 125000
+🎯 Target network updated at step 126000
+🎯 Target network updated at step 127000
+🎯 Target network updated at step 128000
+🎯 Target network updated at step 129000
+
+📊 Episode 120/300
+   Reward: -20.0 | Avg(100): -19.47
+   Length: 1246 steps | Avg(100): 1119.6
+   Loss: 0.009182 | Epsilon: 0.5235
+   Memory: 10000/10000 | Steps: 129429
+🎯 Target network updated at step 130000
+🎯 Target network updated at step 131000
+🎯 Target network updated at step 132000
+🎯 Target network updated at step 133000
+🎯 Target network updated at step 134000
+🎯 Target network updated at step 135000
+🎯 Target network updated at step 136000
+🎯 Target network updated at step 137000
+🎯 Target network updated at step 138000
+🎯 Target network updated at step 139000
+🎯 Target network updated at step 140000
+🎯 Target network updated at step 141000
+🎯 Target network updated at step 142000
+🎯 Target network updated at step 143000
+
+📊 Episode 130/300
+   Reward: -19.0 | Avg(100): -19.26
+   Length: 1412 steps | Avg(100): 1166.9
+   Loss: 0.008572 | Epsilon: 0.4880
+   Memory: 10000/10000 | Steps: 143503
+🎯 Target network updated at step 144000
+🎯 Target network updated at step 145000
+🎯 Target network updated at step 146000
+🎯 Target network updated at step 147000
+🎯 Target network updated at step 148000
+🎯 Target network updated at step 149000
+🎯 Target network updated at step 150000
+🎯 Target network updated at step 151000
+🎯 Target network updated at step 152000
+🎯 Target network updated at step 153000
+🎯 Target network updated at step 154000
+🎯 Target network updated at step 155000
+🎯 Target network updated at step 156000
+🎯 Target network updated at step 157000
+🎯 Target network updated at step 158000
+🎯 Target network updated at step 159000
+
+📊 Episode 140/300
+   Reward: -15.0 | Avg(100): -18.88
+   Length: 1613 steps | Avg(100): 1232.2
+   Loss: 0.008205 | Epsilon: 0.4504
+   Memory: 10000/10000 | Steps: 159527
+🎯 Target network updated at step 160000
+🎯 Target network updated at step 161000
+🎯 Target network updated at step 162000
+🎯 Target network updated at step 163000
+🎯 Target network updated at step 164000
+🎯 Target network updated at step 165000
+🎯 Target network updated at step 166000
+🎯 Target network updated at step 167000
+🎯 Target network updated at step 168000
+🎯 Target network updated at step 169000
+🎯 Target network updated at step 170000
+🎯 Target network updated at step 171000
+🎯 Target network updated at step 172000
+🎯 Target network updated at step 173000
+🎯 Target network updated at step 174000
+🎯 Target network updated at step 175000
+
+📊 Episode 150/300
+   Reward: -19.0 | Avg(100): -18.55
+   Length: 1418 steps | Avg(100): 1297.1
+   Loss: 0.008095 | Epsilon: 0.4163
+   Memory: 10000/10000 | Steps: 175284
+💾 Checkpoint saved at episode 150
+🎯 Target network updated at step 176000
+🎯 Target network updated at step 177000
+🎯 Target network updated at step 178000
+🎯 Target network updated at step 179000
+🎯 Target network updated at step 180000
+🎯 Target network updated at step 181000
+🎯 Target network updated at step 182000
+🎯 Target network updated at step 183000
+🎯 Target network updated at step 184000
+🎯 Target network updated at step 185000
+🎯 Target network updated at step 186000
+🎯 Target network updated at step 187000
+🎯 Target network updated at step 188000
+🎯 Target network updated at step 189000
+🎯 Target network updated at step 190000
+🎯 Target network updated at step 191000
+
+📊 Episode 160/300
+   Reward: -19.0 | Avg(100): -18.24
+   Length: 1347 steps | Avg(100): 1368.2
+   Loss: 0.008108 | Epsilon: 0.3829
+   Memory: 10000/10000 | Steps: 191993
+🎯 Target network updated at step 192000
+🎯 Target network updated at step 193000
+🎯 Target network updated at step 194000
+🎯 Target network updated at step 195000
+🎯 Target network updated at step 196000
+🎯 Target network updated at step 197000
+🎯 Target network updated at step 198000
+🎯 Target network updated at step 199000
+🎯 Target network updated at step 200000
+🎯 Target network updated at step 201000
+🎯 Target network updated at step 202000
+🎯 Target network updated at step 203000
+🎯 Target network updated at step 204000
+🎯 Target network updated at step 205000
+🎯 Target network updated at step 206000
+🎯 Target network updated at step 207000
+🎯 Target network updated at step 208000
+🎯 Target network updated at step 209000
+
+📊 Episode 170/300
+   Reward: -14.0 | Avg(100): -17.79
+   Length: 1764 steps | Avg(100): 1447.3
+   Loss: 0.008217 | Epsilon: 0.3507
+   Memory: 10000/10000 | Steps: 209590
+🎯 Target network updated at step 210000
+🎯 Target network updated at step 211000
+🎯 Target network updated at step 212000
+🎯 Target network updated at step 213000
+🎯 Target network updated at step 214000
+🎯 Target network updated at step 215000
+🎯 Target network updated at step 216000
+🎯 Target network updated at step 217000
+🎯 Target network updated at step 218000
+🎯 Target network updated at step 219000
+🎯 Target network updated at step 220000
+🎯 Target network updated at step 221000
+🎯 Target network updated at step 222000
+🎯 Target network updated at step 223000
+🎯 Target network updated at step 224000
+🎯 Target network updated at step 225000
+🎯 Target network updated at step 226000
+
+📊 Episode 180/300
+   Reward: -20.0 | Avg(100): -17.63
+   Length: 1729 steps | Avg(100): 1508.1
+   Loss: 0.008229 | Epsilon: 0.3225
+   Memory: 10000/10000 | Steps: 226348
+🎯 Target network updated at step 227000
+🎯 Target network updated at step 228000
+🎯 Target network updated at step 229000
+🎯 Target network updated at step 230000
+🎯 Target network updated at step 231000
+🎯 Target network updated at step 232000
+🎯 Target network updated at step 233000
+🎯 Target network updated at step 234000
+🎯 Target network updated at step 235000
+🎯 Target network updated at step 236000
+🎯 Target network updated at step 237000
+🎯 Target network updated at step 238000
+🎯 Target network updated at step 239000
+🎯 Target network updated at step 240000
+🎯 Target network updated at step 241000
+🎯 Target network updated at step 242000
+🎯 Target network updated at step 243000
+
+📊 Episode 190/300
+   Reward: -16.0 | Avg(100): -17.54
+   Length: 1829 steps | Avg(100): 1562.4
+   Loss: 0.008204 | Epsilon: 0.2965
+   Memory: 10000/10000 | Steps: 243169
+🎯 Target network updated at step 244000
+🎯 Target network updated at step 245000
+🎯 Target network updated at step 246000
+🎯 Target network updated at step 247000
+🎯 Target network updated at step 248000
+🎯 Target network updated at step 249000
+🎯 Target network updated at step 250000
+🎯 Target network updated at step 251000
+🎯 Target network updated at step 252000
+🎯 Target network updated at step 253000
+🎯 Target network updated at step 254000
+🎯 Target network updated at step 255000
+🎯 Target network updated at step 256000
+🎯 Target network updated at step 257000
+🎯 Target network updated at step 258000
+🎯 Target network updated at step 259000
+🎯 Target network updated at step 260000
+
+📊 Episode 200/300
+   Reward: -18.0 | Avg(100): -17.43
+   Length: 1437 steps | Avg(100): 1597.6
+   Loss: 0.008305 | Epsilon: 0.2725
+   Memory: 10000/10000 | Steps: 260023
+💾 Checkpoint saved at episode 200
+💾 Model saved: models/high_gamma_ep200.pth
+🎯 Target network updated at step 261000
+🎯 Target network updated at step 262000
+🎯 Target network updated at step 263000
+🎯 Target network updated at step 264000
+🎯 Target network updated at step 265000
+🎯 Target network updated at step 266000
+🎯 Target network updated at step 267000
+🎯 Target network updated at step 268000
+🎯 Target network updated at step 269000
+🎯 Target network updated at step 270000
+🎯 Target network updated at step 271000
+🎯 Target network updated at step 272000
+🎯 Target network updated at step 273000
+🎯 Target network updated at step 274000
+🎯 Target network updated at step 275000
+🎯 Target network updated at step 276000
+🎯 Target network updated at step 277000
+
+📊 Episode 210/300
+   Reward: -16.0 | Avg(100): -17.32
+   Length: 1833 steps | Avg(100): 1627.3
+   Loss: 0.008407 | Epsilon: 0.2495
+   Memory: 10000/10000 | Steps: 277669
+🎯 Target network updated at step 278000
+🎯 Target network updated at step 279000
+🎯 Target network updated at step 280000
+🎯 Target network updated at step 281000
+🎯 Target network updated at step 282000
+🎯 Target network updated at step 283000
+🎯 Target network updated at step 284000
+🎯 Target network updated at step 285000
+🎯 Target network updated at step 286000
+🎯 Target network updated at step 287000
+🎯 Target network updated at step 288000
+🎯 Target network updated at step 289000
+🎯 Target network updated at step 290000
+🎯 Target network updated at step 291000
+🎯 Target network updated at step 292000
+🎯 Target network updated at step 293000
+🎯 Target network updated at step 294000
+🎯 Target network updated at step 295000
+🎯 Target network updated at step 296000
+🎯 Target network updated at step 297000
+
+📊 Episode 220/300
+   Reward: -15.0 | Avg(100): -17.11
+   Length: 1918 steps | Avg(100): 1681.4
+   Loss: 0.008428 | Epsilon: 0.2259
+   Memory: 10000/10000 | Steps: 297568
+🎯 Target network updated at step 298000
+🎯 Target network updated at step 299000
+🎯 Target network updated at step 300000
+🎯 Target network updated at step 301000
+🎯 Target network updated at step 302000
+🎯 Target network updated at step 303000
+🎯 Target network updated at step 304000
+🎯 Target network updated at step 305000
+🎯 Target network updated at step 306000
+🎯 Target network updated at step 307000
+🎯 Target network updated at step 308000
+🎯 Target network updated at step 309000
+🎯 Target network updated at step 310000
+🎯 Target network updated at step 311000
+🎯 Target network updated at step 312000
+🎯 Target network updated at step 313000
+🎯 Target network updated at step 314000
+🎯 Target network updated at step 315000
+🎯 Target network updated at step 316000
+🎯 Target network updated at step 317000
+🎯 Target network updated at step 318000
+
+📊 Episode 230/300
+   Reward: -15.0 | Avg(100): -16.84
+   Length: 2399 steps | Avg(100): 1747.7
+   Loss: 0.008495 | Epsilon: 0.2037
+   Memory: 10000/10000 | Steps: 318268
+🎯 Target network updated at step 319000
+🎯 Target network updated at step 320000
+🎯 Target network updated at step 321000
+🎯 Target network updated at step 322000
+🎯 Target network updated at step 323000
+🎯 Target network updated at step 324000
+🎯 Target network updated at step 325000
+🎯 Target network updated at step 326000
+🎯 Target network updated at step 327000
+🎯 Target network updated at step 328000
+🎯 Target network updated at step 329000
+🎯 Target network updated at step 330000
+🎯 Target network updated at step 331000
+🎯 Target network updated at step 332000
+🎯 Target network updated at step 333000
+🎯 Target network updated at step 334000
+🎯 Target network updated at step 335000
+🎯 Target network updated at step 336000
+🎯 Target network updated at step 337000
+🎯 Target network updated at step 338000
+🎯 Target network updated at step 339000
+🎯 Target network updated at step 340000
+
+📊 Episode 240/300
+   Reward: -13.0 | Avg(100): -16.78
+   Length: 2528 steps | Avg(100): 1807.5
+   Loss: 0.008466 | Epsilon: 0.1824
+   Memory: 10000/10000 | Steps: 340281
+🎯 Target network updated at step 341000
+🎯 Target network updated at step 342000
+🎯 Target network updated at step 343000
+🎯 Target network updated at step 344000
+🎯 Target network updated at step 345000
+🎯 Target network updated at step 346000
+🎯 Target network updated at step 347000
+🎯 Target network updated at step 348000
+🎯 Target network updated at step 349000
+🎯 Target network updated at step 350000
+🎯 Target network updated at step 351000
+🎯 Target network updated at step 352000
+🎯 Target network updated at step 353000
+🎯 Target network updated at step 354000
+🎯 Target network updated at step 355000
+🎯 Target network updated at step 356000
+🎯 Target network updated at step 357000
+🎯 Target network updated at step 358000
+🎯 Target network updated at step 359000
+🎯 Target network updated at step 360000
+🎯 Target network updated at step 361000
+
+📊 Episode 250/300
+   Reward: -16.0 | Avg(100): -16.64
+   Length: 2090 steps | Avg(100): 1864.9
+   Loss: 0.008490 | Epsilon: 0.1638
+   Memory: 10000/10000 | Steps: 361773
+💾 Checkpoint saved at episode 250
+🎯 Target network updated at step 362000
+🎯 Target network updated at step 363000
+🎯 Target network updated at step 364000
+🎯 Target network updated at step 365000
+🎯 Target network updated at step 366000
+🎯 Target network updated at step 367000
+🎯 Target network updated at step 368000
+🎯 Target network updated at step 369000
+🎯 Target network updated at step 370000
+🎯 Target network updated at step 371000
+🎯 Target network updated at step 372000
+🎯 Target network updated at step 373000
+🎯 Target network updated at step 374000
+🎯 Target network updated at step 375000
+🎯 Target network updated at step 376000
+🎯 Target network updated at step 377000
+🎯 Target network updated at step 378000
+🎯 Target network updated at step 379000
+🎯 Target network updated at step 380000
+🎯 Target network updated at step 381000
+
+📊 Episode 260/300
+   Reward: -17.0 | Avg(100): -16.50
+   Length: 1984 steps | Avg(100): 1893.1
+   Loss: 0.008469 | Epsilon: 0.1486
+   Memory: 10000/10000 | Steps: 381301
+🎯 Target network updated at step 382000
+🎯 Target network updated at step 383000
+🎯 Target network updated at step 384000
+🎯 Target network updated at step 385000
+🎯 Target network updated at step 386000
+🎯 Target network updated at step 387000
+🎯 Target network updated at step 388000
+🎯 Target network updated at step 389000
+🎯 Target network updated at step 390000
+🎯 Target network updated at step 391000
+🎯 Target network updated at step 392000
+🎯 Target network updated at step 393000
+🎯 Target network updated at step 394000
+🎯 Target network updated at step 395000
+🎯 Target network updated at step 396000
+🎯 Target network updated at step 397000
+🎯 Target network updated at step 398000
+🎯 Target network updated at step 399000
+🎯 Target network updated at step 400000
+🎯 Target network updated at step 401000
+🎯 Target network updated at step 402000
+
+📊 Episode 270/300
+   Reward: -15.0 | Avg(100): -16.45
+   Length: 2368 steps | Avg(100): 1931.8
+   Loss: 0.008583 | Epsilon: 0.1335
+   Memory: 10000/10000 | Steps: 402767
+🎯 Target network updated at step 403000
+🎯 Target network updated at step 404000
+🎯 Target network updated at step 405000
+🎯 Target network updated at step 406000
+🎯 Target network updated at step 407000
+🎯 Target network updated at step 408000
+🎯 Target network updated at step 409000
+🎯 Target network updated at step 410000
+🎯 Target network updated at step 411000
+🎯 Target network updated at step 412000
+🎯 Target network updated at step 413000
+🎯 Target network updated at step 414000
+🎯 Target network updated at step 415000
+🎯 Target network updated at step 416000
+🎯 Target network updated at step 417000
+🎯 Target network updated at step 418000
+🎯 Target network updated at step 419000
+🎯 Target network updated at step 420000
+🎯 Target network updated at step 421000
+🎯 Target network updated at step 422000
+🎯 Target network updated at step 423000
+🎯 Target network updated at step 424000
+
+📊 Episode 280/300
+   Reward: -11.0 | Avg(100): -16.07
+   Length: 2405 steps | Avg(100): 1983.1
+   Loss: 0.008577 | Epsilon: 0.1196
+   Memory: 10000/10000 | Steps: 424662
+🎯 Target network updated at step 425000
+🎯 Target network updated at step 426000
+🎯 Target network updated at step 427000
+🎯 Target network updated at step 428000
+🎯 Target network updated at step 429000
+🎯 Target network updated at step 430000
+🎯 Target network updated at step 431000
+🎯 Target network updated at step 432000
+🎯 Target network updated at step 433000
+🎯 Target network updated at step 434000
+🎯 Target network updated at step 435000
+🎯 Target network updated at step 436000
+🎯 Target network updated at step 437000
+🎯 Target network updated at step 438000
+🎯 Target network updated at step 439000
+🎯 Target network updated at step 440000
+🎯 Target network updated at step 441000
+🎯 Target network updated at step 442000
+🎯 Target network updated at step 443000
+🎯 Target network updated at step 444000
+🎯 Target network updated at step 445000
+🎯 Target network updated at step 446000
+
+📊 Episode 290/300
+   Reward: -19.0 | Avg(100): -15.68
+   Length: 1790 steps | Avg(100): 2035.7
+   Loss: 0.008573 | Epsilon: 0.1071
+   Memory: 10000/10000 | Steps: 446735
+🎯 Target network updated at step 447000
+🎯 Target network updated at step 448000
+🎯 Target network updated at step 449000
+🎯 Target network updated at step 450000
+🎯 Target network updated at step 451000
+🎯 Target network updated at step 452000
+🎯 Target network updated at step 453000
+🎯 Target network updated at step 454000
+🎯 Target network updated at step 455000
+🎯 Target network updated at step 456000
+🎯 Target network updated at step 457000
+🎯 Target network updated at step 458000
+🎯 Target network updated at step 459000
+🎯 Target network updated at step 460000
+🎯 Target network updated at step 461000
+🎯 Target network updated at step 462000
+🎯 Target network updated at step 463000
+🎯 Target network updated at step 464000
+🎯 Target network updated at step 465000
+🎯 Target network updated at step 466000
+🎯 Target network updated at step 467000
+🎯 Target network updated at step 468000
+🎯 Target network updated at step 469000
+
+📊 Episode 300/300
+   Reward: -11.0 | Avg(100): -15.38
+   Length: 2689 steps | Avg(100): 2094.8
+   Loss: 0.008434 | Epsilon: 0.0956
+   Memory: 10000/10000 | Steps: 469507
+💾 Checkpoint saved at episode 300
+💾 Model saved: models/high_gamma_ep300.pth
+
+======================================================================
+✅ TRAINING COMPLETE!
+======================================================================
+Experiment: high_gamma
+Final Avg Reward (100ep): -15.38
+Final Avg Length (100ep): 2094.8
+Best Episode: -7.0
+Worst Episode: -21.0
+Total Steps: 469507
+Final Epsilon: 0.0956
+
+Model saved: models/high_gamma_final.pth
+Stats saved: logs/high_gamma_stats.json
+======================================================================
+
+======================================================================
+Experiment 3: LOW GAMMA (γ=0.95)
+======================================================================
+======================================================================
+🎮 DQN PONG AGENT TRAINING
+======================================================================
+Experiment: low_gamma
+Environment: ALE/Pong-v5
+Total Episodes: 300
+Learning Rate (α): 0.0001
+Discount Factor (γ): 0.95
+Epsilon Start: 1.0
+Epsilon Min: 0.02
+Epsilon Decay: 0.999995
+Random Seed: 101
+======================================================================
+🖥️  Using device: cpu
+🎯 Target network updated at step 1000
+🎯 Target network updated at step 2000
+🎯 Target network updated at step 3000
+🎯 Target network updated at step 4000
+🎯 Target network updated at step 5000
+🎯 Target network updated at step 6000
+🎯 Target network updated at step 7000
+🎯 Target network updated at step 8000
+🎯 Target network updated at step 9000
+
+📊 Episode 10/300
+   Reward: -21.0 | Avg(100): -20.20
+   Length: 824 steps | Avg(100): 1040.5
+   Loss: 0.019377 | Epsilon: 0.9541
+   Memory: 10000/10000 | Steps: 9406
+🎯 Target network updated at step 10000
+🎯 Target network updated at step 11000
+🎯 Target network updated at step 12000
+🎯 Target network updated at step 13000
+🎯 Target network updated at step 14000
+🎯 Target network updated at step 15000
+🎯 Target network updated at step 16000
+🎯 Target network updated at step 17000
+🎯 Target network updated at step 18000
+
+📊 Episode 20/300
+   Reward: -21.0 | Avg(100): -20.20
+   Length: 764 steps | Avg(100): 982.7
+   Loss: 0.019233 | Epsilon: 0.9109
+   Memory: 10000/10000 | Steps: 18655
+🎯 Target network updated at step 19000
+🎯 Target network updated at step 20000
+🎯 Target network updated at step 21000
+🎯 Target network updated at step 22000
+🎯 Target network updated at step 23000
+🎯 Target network updated at step 24000
+🎯 Target network updated at step 25000
+🎯 Target network updated at step 26000
+🎯 Target network updated at step 27000
+
+📊 Episode 30/300
+   Reward: -20.0 | Avg(100): -20.33
+   Length: 842 steps | Avg(100): 955.3
+   Loss: 0.015229 | Epsilon: 0.8708
+   Memory: 10000/10000 | Steps: 27660
+🎯 Target network updated at step 28000
+🎯 Target network updated at step 29000
+🎯 Target network updated at step 30000
+🎯 Target network updated at step 31000
+🎯 Target network updated at step 32000
+🎯 Target network updated at step 33000
+🎯 Target network updated at step 34000
+🎯 Target network updated at step 35000
+🎯 Target network updated at step 36000
+🎯 Target network updated at step 37000
+
+📊 Episode 40/300
+   Reward: -20.0 | Avg(100): -20.23
+   Length: 898 steps | Avg(100): 964.5
+   Loss: 0.012640 | Epsilon: 0.8287
+   Memory: 10000/10000 | Steps: 37583
+🎯 Target network updated at step 38000
+🎯 Target network updated at step 39000
+🎯 Target network updated at step 40000
+🎯 Target network updated at step 41000
+🎯 Target network updated at step 42000
+🎯 Target network updated at step 43000
+🎯 Target network updated at step 44000
+🎯 Target network updated at step 45000
+🎯 Target network updated at step 46000
+🎯 Target network updated at step 47000
+
+📊 Episode 50/300
+   Reward: -20.0 | Avg(100): -20.22
+   Length: 842 steps | Avg(100): 966.1
+   Loss: 0.011163 | Epsilon: 0.7894
+   Memory: 10000/10000 | Steps: 47304
+💾 Checkpoint saved at episode 50
+🎯 Target network updated at step 48000
+🎯 Target network updated at step 49000
+🎯 Target network updated at step 50000
+🎯 Target network updated at step 51000
+🎯 Target network updated at step 52000
+🎯 Target network updated at step 53000
+🎯 Target network updated at step 54000
+🎯 Target network updated at step 55000
+🎯 Target network updated at step 56000
+
+📊 Episode 60/300
+   Reward: -21.0 | Avg(100): -20.22
+   Length: 1031 steps | Avg(100): 962.2
+   Loss: 0.009989 | Epsilon: 0.7530
+   Memory: 10000/10000 | Steps: 56732
+🎯 Target network updated at step 57000
+🎯 Target network updated at step 58000
+🎯 Target network updated at step 59000
+🎯 Target network updated at step 60000
+🎯 Target network updated at step 61000
+🎯 Target network updated at step 62000
+🎯 Target network updated at step 63000
+🎯 Target network updated at step 64000
+🎯 Target network updated at step 65000
+🎯 Target network updated at step 66000
+
+📊 Episode 70/300
+   Reward: -20.0 | Avg(100): -20.23
+   Length: 1037 steps | Avg(100): 963.7
+   Loss: 0.009157 | Epsilon: 0.7173
+   Memory: 10000/10000 | Steps: 66457
+🎯 Target network updated at step 67000
+🎯 Target network updated at step 68000
+🎯 Target network updated at step 69000
+🎯 Target network updated at step 70000
+🎯 Target network updated at step 71000
+🎯 Target network updated at step 72000
+🎯 Target network updated at step 73000
+🎯 Target network updated at step 74000
+🎯 Target network updated at step 75000
+🎯 Target network updated at step 76000
+
+📊 Episode 80/300
+   Reward: -21.0 | Avg(100): -20.12
+   Length: 1049 steps | Avg(100): 970.2
+   Loss: 0.008536 | Epsilon: 0.6817
+   Memory: 10000/10000 | Steps: 76620
+🎯 Target network updated at step 77000
+🎯 Target network updated at step 78000
+🎯 Target network updated at step 79000
+🎯 Target network updated at step 80000
+🎯 Target network updated at step 81000
+🎯 Target network updated at step 82000
+🎯 Target network updated at step 83000
+🎯 Target network updated at step 84000
+🎯 Target network updated at step 85000
+🎯 Target network updated at step 86000
+
+📊 Episode 90/300
+   Reward: -19.0 | Avg(100): -20.11
